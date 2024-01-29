@@ -74,6 +74,8 @@ opkg install \
   python3-pillow \
   python3-cryptodomex
 
+opkg install python3-gdbm 2>/dev/null || true
+
 cd /tmp/
 
 
